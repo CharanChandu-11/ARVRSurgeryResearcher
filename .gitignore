@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+.venv/
+env/
+ENV/
+venv/
+
+# Jupyter Notebooks Checkpoints (if any)
+.ipynb_checkpoints/
+
+# VSCode Settings (optional)
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (🔒 API keys and service account data)
+.streamlit/secrets.toml
+
+# Service account key JSON (you must DELETE it if pushed accidentally)
+modern-crane-462511-t8-b8a1c54a9ccb.json
+
+# PDF/Research files (optional, if not needed in repo)
+*.pdf
